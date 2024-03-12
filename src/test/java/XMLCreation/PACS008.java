@@ -812,7 +812,7 @@ public class PACS008 {
         transformer.setOutputProperty(OutputKeys.INDENT, "yes");
         transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
         DOMSource source = new DOMSource(doc);
-        StreamResult result = new StreamResult(new File("PACS00812.xml"));
+        StreamResult result = new StreamResult(new File("PACS00813.xml"));
         transformer.transform(source, result);
 
 
